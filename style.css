@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.5;
+  line-height: 1.6;
+}
+
+.card-container {
+  max-width: 700px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.grid {
+  display: grid;
+  margin: 0 16px;
+  background-color: indianred;
+  border-radius: 0.5rem;
+}
+
+.grid-three--cols {
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+}
+
+.card {
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.card-one {
+  background-color: orangered;
+}
+.card-two {
+  background-color: #094444;
+}
+.card-three {
+  background-color: #81b616;
+}
+
+.btn-primary {
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
